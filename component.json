@@ -1,0 +1,23 @@
+{
+  "name": "leaflet-collapse-button",
+  "author": "Muhammed Kalender",
+  "repo": "muhammedkalender/leaflet-collapse-button",
+  "description": "a collapse control for Leaflet",
+  "version": "0.0.1",
+  "keywords": [
+    "leaflet",
+    "maps",
+    "button",
+    "collapse",
+    "client"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "src/leaflet.collapse-button.js"
+  ],
+  "styles": [
+    "dist/leaflet.collapse-button.css"
+  ]
+}

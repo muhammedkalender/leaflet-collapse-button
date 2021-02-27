@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-toggle-button",
+  "version": "0.0.1",
+  "description": "Leaflet Extension for Toggle Button",
+  "main": "dist/Leaflet.toggle-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/muhammedkalender/LeafletToggleButton.git"
+  },
+  "keywords": [
+	"leaflet",
+	"maps",
+	"button",
+	"toggle",
+	"client"
+  ],
+  "author": "Muhammed Kalender",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/muhammedkalender/LeafletToggleButton/issues"
+  },
+  "homepage": "https://github.com/muhammedkalender/LeafletToggleButton#readme"
+}
