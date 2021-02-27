@@ -1,27 +1,34 @@
 {
-  "name": "leaflet-toggle-button",
-  "version": "0.0.1",
-  "description": "Leaflet Extension for Toggle Button",
-  "main": "dist/Leaflet.toggle-button.js",
+  "name": "leaflet-collapse-button",
+  "version": "0.0.3",
+  "description": "Leaflet Extension for Collapse Panels",
+  "main": "dist/leaflet.collapse-button.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files \"**/*.html,**/*.css,**/*.js\"",
+    "build-js": "cat  index.js > ./dist/leaflet.collapse-button.js",
+    "build-css": "cat  index.css > ./dist/leaflet.collapse-button.css",
+    "compress-js": "uglifyjs ./dist/leaflet.collapse-button.js -o ./dist/leaflet.collapse-button.min.js -m",
+    "compress-css": "uglifycss ./dist/leaflet.collapse-button.css > ./dist/leaflet.collapse-button.min.css",
+    "build": "npm run build-js && npm run build-css && npm run compress-js && npm run compress-css",
+    "release": "git push origin main && git checkout main && git merge main && git push origin main && git checkout main && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/muhammedkalender/LeafletToggleButton.git"
+    "url": "git://github.com/muhammedkalender/leaflet-collapse-button.git"
   },
   "keywords": [
-	"leaflet",
-	"maps",
-	"button",
-	"toggle",
-	"client"
+    "leaflet",
+    "maps",
+    "button",
+    "collapse",
+    "client"
   ],
   "author": "Muhammed Kalender",
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/muhammedkalender/LeafletToggleButton/issues"
+    "url": "https://github.com/muhammedkalender/leaflet-collapse-button/issues"
   },
-  "homepage": "https://github.com/muhammedkalender/LeafletToggleButton#readme"
+  "homepage": "https://github.com/muhammedkalender/leaflet-collapse-button#readme"
 }

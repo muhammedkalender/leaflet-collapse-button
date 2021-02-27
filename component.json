@@ -15,7 +15,7 @@
   "development": {},
   "license": "MIT",
   "scripts": [
-    "src/leaflet.collapse-button.js"
+    "dist/leaflet.collapse-button.js"
   ],
   "styles": [
     "dist/leaflet.collapse-button.css"
