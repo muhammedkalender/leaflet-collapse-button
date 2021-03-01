@@ -1,6 +1,10 @@
 ## Leaflet Collapse Button
 A HTML5 collapse button plugin for Leaflet.
 
+<a href="https://jsfiddle.net/muhammedkalender/d9g8j3w7/">View Demo</a>
+
+[![Product Demo Screen Shot][product-demo]](https://jsfiddle.net/muhammedkalender/d9g8j3w7/)
+
 ### Usage
 
 ``` js
@@ -29,3 +33,6 @@ map.addControl(new L.Control.CollapseButton ({
 ```html
     npm install && make
 ```
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-gif]: media/demo.gif
