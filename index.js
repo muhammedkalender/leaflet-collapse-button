@@ -17,10 +17,8 @@
     options: {
       currentStatus: 1,
       position: 'topleft',
-      title: {
-        'false': 'View Fullscreen',
-        'true': 'Exit Fullscreen'
-      },
+      title: '',
+      titleCancel: '',
       elementId: '',
       targetElementId: '',
       showClasses: [],
@@ -36,18 +34,11 @@
       this.link.href = '#';
 
       this._map = map;
-      this._map.on('fullscreenchange', this._toggleTitle, this);
-      this._toggleTitle();
 
       L.DomEvent.on(this.link, 'click', this._click, this);
 
       return container;
     },
-
-    onRemove: function(map) {
-      map.off('fullscreenchange', this._toggleTitle, this);
-    },
-
     _click: function(e) {
       L.DomEvent.stopPropagation(e);
       L.DomEvent.preventDefault(e);
@@ -82,6 +73,8 @@
         }
 
         this.options.currentStatus = 0;
+        
+        this.link.title = this.options.title;
       } else {
         //Show
         this.link.classList.add("lcc-collapse");
@@ -104,13 +97,11 @@
         }
 
         this.options.currentStatus = 1;
+        
+        this.link.title = this.options.titleCancel;
       }
 
       this._map.invalidateSize();
-    },
-
-    _toggleTitle: function() {
-      this.link.title = this.options.title[this._map.isFullscreen()];
     }
   });
 
