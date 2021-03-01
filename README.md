@@ -35,3 +35,7 @@ map.addControl(new L.Control.CollapseButton ({
 ```html
 npm i leaflet-collapse-button
 ```
+
+## License
+
+MIT
