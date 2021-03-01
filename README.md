@@ -33,8 +33,5 @@ map.addControl(new L.Control.CollapseButton ({
 
 ### Install via NPM
 ```html
-    npm install && make
+    npm i leaflet-collapse-button
 ```
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[product-gif]: media/demo.gif
