@@ -3,9 +3,7 @@ A HTML5 collapse button plugin for Leaflet.
 
 <a href="https://jsfiddle.net/muhammedkalender/d9g8j3w7/">View Demo</a>
 
-![Product Demo Screen Shot]([product-demo])
-
-![image description](media/demo.gif)
+![Product Demo](media/demo.gif)
 
 ### Usage
 
