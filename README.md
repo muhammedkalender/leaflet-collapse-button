@@ -3,7 +3,7 @@ A HTML5 collapse button plugin for Leaflet.
 
 [![NPM version](https://img.shields.io/npm/v/leaflet-collapse-button.svg)](https://www.npmjs.com/package/leaflet-collapse-button)
 
-<a href="https://jsfiddle.net/muhammedkalender/d9g8j3w7/">View Demo</a>
+<a href="https://jsfiddle.net/muhammedkalender/wb7qx8ad/">View Demo</a>
 
 ![Product Demo](media/demo.gif)
 
