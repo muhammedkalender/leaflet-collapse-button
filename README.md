@@ -5,6 +5,8 @@ A HTML5 collapse button plugin for Leaflet.
 
 [![Product Demo Screen Shot][product-demo]](https://jsfiddle.net/muhammedkalender/d9g8j3w7/)
 
+![image description](media/demo.gif)
+
 ### Usage
 
 ``` js
