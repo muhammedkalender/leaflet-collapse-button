@@ -3,11 +3,28 @@
     background-position: 2px;
 }
 
-.leaflet-control-collapse .lcc-collapse {
+.lcc-right {
+
+}
+
+.lcc-left {
+
+}
+
+.lcc-right.lcc-collapse {
     background-position-x: 4px;
     background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'><path d='M0 0h24v24H0z' fill='none'/><path d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/></svg>");
 }
 
-.leaflet-control-collapse .lcc-collapsed {
+.lcc-right.lcc-collapsed {
     background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'><path d='M0 0h24v24H0z' fill='none'/><path d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z'/></svg>");
+}
+
+.lcc-left.lcc-collapse {
+    background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'><path d='M0 0h24v24H0z' fill='none'/><path d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z'/></svg>");
+}
+
+.lcc-left.lcc-collapsed {
+    background-position-x: 4px;
+    background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'><path d='M0 0h24v24H0z' fill='none'/><path d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/></svg>");
 }
