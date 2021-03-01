@@ -1,6 +1,6 @@
 {
   "name": "leaflet-collapse-button",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Leaflet Extension for Collapse Panels",
   "main": "dist/leaflet.collapse-button.js",
   "scripts": {
