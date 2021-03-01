@@ -7,8 +7,8 @@ A HTML5 collapse button plugin for Leaflet.
 map.addControl(new L.Control.CollapseButton ({
 	currentStatus: 1,	
 	position: 'topright',	
-	title: 'View Fullscreen',	
-	titleCancel: 'Exit Fullscreen',	
+	title: 'Hide Panel',	
+	titleCancel: 'Show Panel',	
 	elementId: 'map',	
 	targetElementId: 'cards',	
 	hideClasses: 'col-md-12',	
