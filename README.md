@@ -27,8 +27,8 @@ map.addControl(new L.Control.CollapseButton ({
 ### Including via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/leaflet-collapse-button@0.0.4/dist/leaflet.collapse-button.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-collapse-button@0.0.4/dist/leaflet.collapse-button.min.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet-collapse-button@0.0.5/dist/leaflet.collapse-button.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-collapse-button@0.0.5/dist/leaflet.collapse-button.min.css">
 ```
 
 ### Install via NPM
