@@ -33,5 +33,5 @@ map.addControl(new L.Control.CollapseButton ({
 
 ### Install via NPM
 ```html
-    npm i leaflet-collapse-button
+npm i leaflet-collapse-button
 ```
